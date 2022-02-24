@@ -15,6 +15,7 @@ func NewRouter() *gin.Engine {
 
 	tag := v1.NewTag()
 	upload := api.NewUpload()
+	article := v1.NewArticle()
 
 	//路由管理
 	v1Api := r.Group("/api/v1")
@@ -27,6 +28,9 @@ func NewRouter() *gin.Engine {
 
 		//上传管理
 		v1Api.POST("/upload/file", upload.UploadFile)
+
+		//文章管理
+		v1Api.POST("/articles", article.Create)
 	}
 	return r
 }

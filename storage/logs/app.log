@@ -8,3 +8,14 @@
 2022/02/24 13:49:59 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"输入的参数为: %v{4 标签4 0 张海4}","time":1645681799359007000}
 2022/02/24 13:51:40 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"输入的参数为: %v{4 标签4-1 1 张海4-1}","time":1645681900354635000}
 2022/02/24 13:53:01 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"输入的参数为: %v{4 标签4-1 1 张海4-1}","time":1645681981287177000}
+2022/02/24 17:45:35 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"输入的参数为: {   }","time":1645695935422419000}
+2022/02/24 17:45:35 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"参数校验异常，异常原因：%vContent为必填字段,CreatedBy为必填字段,Title为必填字段,Desc为必填字段","time":1645695935422606000}
+2022/02/24 17:46:32 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"输入的参数为: {   }","time":1645695992277756000}
+2022/02/24 17:46:32 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"参数校验异常，异常原因: %vTitle为必填字段,Desc为必填字段,Content为必填字段,CreatedBy为必填字段","time":1645695992277907000}
+2022/02/24 17:47:35 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"输入的参数为: {   }","time":1645696055907592000}
+2022/02/24 17:47:35 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"参数校验异常，异常原因: %vDesc为必填字段,Content为必填字段,CreatedBy为必填字段,Title为必填字段","time":1645696055907743000}
+2022/02/24 17:49:16 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"输入的参数为: {   }","time":1645696156236501000}
+2022/02/24 17:49:16 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"参数校验异常，异常原因: Title为必填字段,Desc为必填字段,Content为必填字段,CreatedBy为必填字段","time":1645696156236653000}
+2022/02/24 17:50:54 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"输入的参数为: {第一个文章标题 第一个文章描述 文章内容 张海}","time":1645696254199067000}
+2022/02/24 17:52:07 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"输入的参数为: {第一个文章标题 第一个文章描述 文章内容 张海}","time":1645696327330675000}
+2022/02/24 17:52:08 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"输入的参数为: {第一个文章标题 第一个文章描述 文章内容 张海}","time":1645696328706900000}

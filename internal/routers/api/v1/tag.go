@@ -25,6 +25,7 @@ func (t Tag) Create(c *gin.Context) {
 	if !valid {
 		global.Logger.Infof("参数校验异常，异常原因: %v", errs)
 		response.ToErrorResponse(errcode.ErrorCreateTagFail)
+		return
 	}
 	svc := service.New(c.Request.Context())
 	err := svc.CreateTag(&param)
@@ -34,7 +35,7 @@ func (t Tag) Create(c *gin.Context) {
 		return
 	}
 	//标签新增成功
-	response.ToResponse(gin.H{"code":"0","msg":"success"})
+	response.ToResponse(gin.H{"code":"0", "msg":"success"})
 }
 
 /**
