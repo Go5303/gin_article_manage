@@ -17,6 +17,7 @@ func NewRouter() *gin.Engine {
 	//路由管理
 	v1Api := r.Group("/api/v1")
 	{
+		//标签管理
 		v1Api.GET("/tags/list", tag.List)
 		v1Api.POST("/tags", tag.Create)
 		v1Api.POST("/tags/delete", tag.Delete)

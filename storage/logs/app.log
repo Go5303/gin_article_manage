@@ -1,1 +1,10 @@
 
+2022/02/24 13:42:23 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"输入的参数为: %v{3 标签3 1 张海001}","time":1645681343047562000}
+2022/02/24 13:42:34 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"输入的参数为: %v{3 标签3 1 张海001}","time":1645681354668649000}
+2022/02/24 13:42:41 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"输入的参数为: %v{4 标签3 1 张海001}","time":1645681361047143000}
+2022/02/24 13:42:50 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"输入的参数为: %v{4 标签3 1 张海003}","time":1645681370471032000}
+2022/02/24 13:42:59 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"输入的参数为: %v{4 标签3 0 张海003}","time":1645681379718409000}
+2022/02/24 13:43:05 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"输入的参数为: %v{4 标签3 1 张海003}","time":1645681385189062000}
+2022/02/24 13:49:59 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"输入的参数为: %v{4 标签4 0 张海4}","time":1645681799359007000}
+2022/02/24 13:51:40 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"输入的参数为: %v{4 标签4-1 1 张海4-1}","time":1645681900354635000}
+2022/02/24 13:53:01 {"callers":["/Users/zhanghai/go/src/blog-serice/main.go: 21 main.init.0"],"level":"info","message":"输入的参数为: %v{4 标签4-1 1 张海4-1}","time":1645681981287177000}

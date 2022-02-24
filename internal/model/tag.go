@@ -24,8 +24,12 @@ func (t Tag) Create(db *gorm.DB) error {
 /**
  更新标签
  */
-func (t Tag) Update(db *gorm.DB) error {
-	return db.Model(&t).Where("id = ? and is_del = ?", t.ID, 0).Update(t).Error
+func (t Tag) Update(db *gorm.DB, values interface{}) error {
+	err := db.Model(&t).Where("is_del = ?", 0).Updates(values).Error
+	if err != nil {
+		return err
+	}
+	return nil
 }
 
 /**
