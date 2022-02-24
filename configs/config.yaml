@@ -9,6 +9,15 @@ App:
   LogSavePath: storage/logs
   LogFileName: app
   LogFileExt: .log
+  #图片文件上传对应的配置
+  UploadSavePath: storage/uploads
+  UploadServerUrl: http://127.0.0.1:8080/static
+  UploadImageMaxSize: 5 #MB
+  UploadImageAllowExts:
+    - .jpg
+    - .jpeg
+    - .png
+    - .gif
 Database:
   DBType: mysql
   Username: root

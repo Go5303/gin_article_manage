@@ -2,6 +2,7 @@ package routers
 
 import (
 	"blog-serice/internal/middleware"
+	"blog-serice/internal/routers/api"
 	v1 "blog-serice/internal/routers/api/v1"
 	"github.com/gin-gonic/gin"
 )
@@ -13,6 +14,7 @@ func NewRouter() *gin.Engine {
 	r.Use(middleware.Translations())
 
 	tag := v1.NewTag()
+	upload := api.NewUpload()
 
 	//路由管理
 	v1Api := r.Group("/api/v1")
@@ -22,6 +24,9 @@ func NewRouter() *gin.Engine {
 		v1Api.POST("/tags", tag.Create)
 		v1Api.POST("/tags/delete", tag.Delete)
 		v1Api.POST("/tags/update", tag.Update)
+
+		//上传管理
+		v1Api.POST("/upload/file", upload.UploadFile)
 	}
 	return r
 }
