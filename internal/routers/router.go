@@ -34,6 +34,7 @@ func NewRouter() *gin.Engine {
 
 		//cookie和session管理
 		v1Api.GET("/user/cookie", v1.SetCookie)
+		v1Api.GET("/user/session", v1.SaveSession)
 	}
 	return r
 }
