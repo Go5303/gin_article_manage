@@ -31,6 +31,9 @@ func NewRouter() *gin.Engine {
 
 		//文章管理
 		v1Api.POST("/articles", article.Create)
+
+		//cookie和session管理
+		v1Api.GET("/user/cookie", v1.SetCookie)
 	}
 	return r
 }
